@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navigation Bar Using Only HTML and CSS</title>
+    <title>Responsive Navigation Bar</title>
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Icons -->
@@ -23,8 +23,28 @@
       rel="stylesheet" />
   </head>
   <body>
+    <header>
+      <a href="#" class="logo">
+        <i class="ri-home-heart-fill"></i>
+        <span>Logo</span>
+      </a>
 
-    <!-- Scipts -->
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="main">
+        <a href="#" class="user"><i class="ri-user-fill"></i>Sign In</a>
+        <a href="#" class="a">Register</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- Scripts -->
     <script src="./js/script.js"></script>
   </body>
 </html>
